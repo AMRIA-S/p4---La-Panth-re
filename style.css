@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline: focus!important;
 }
 
 a:hover {
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -426,7 +426,7 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+    outline: focus!important;
 }
 
 .btn-rd {
